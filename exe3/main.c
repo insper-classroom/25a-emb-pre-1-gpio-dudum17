@@ -7,12 +7,14 @@ const int LED1 = 4;
 const int LED2 = 6;
 const int BTN1 = 28;
 const int BTN2 = 26;
-bool btn1_ligado = false;
-bool btn2_ligado = false;
+
 
 
 int main() {
   stdio_init_all();
+
+  bool btn1_ligado = false;
+  bool btn2_ligado = false;
 
 
   gpio_init(LED1);
